@@ -21,7 +21,8 @@ createApp({
                     this.products = res.data.products;
                 }
                 else {
-                    alert('讀取失敗')
+                    alert('讀取失敗');
+                    window.location = 'login.html';
                 }
             }).catch(error=>{
                 consolo.log(error)
