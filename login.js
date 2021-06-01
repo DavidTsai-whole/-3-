@@ -17,7 +17,7 @@ methods: {
             if(res.data.success){
                 let {token,expired} = res.data;
                 document.cookie = `hexToken=${token};expires=${new Date(expired)}; path=/`;
-                window.location = 'index.html';
+                window.location = 'product.html';
                 
             }
         }).catch(error=>{

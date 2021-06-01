@@ -22,7 +22,7 @@ createApp({
                 }
                 else {
                     alert('讀取失敗');
-                    window.location = 'login.html';
+                    window.location = 'index.html';
                 }
             }).catch(error=>{
                 consolo.log(error)
